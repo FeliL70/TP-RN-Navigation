@@ -22,7 +22,7 @@ export default function NoticeScreen() {
     },
     text: {
       color: 'white',
-      fontSize: 20,
+      fontSize: 40,
     },
   });
     
