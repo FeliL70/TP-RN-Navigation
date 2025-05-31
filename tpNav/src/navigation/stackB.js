@@ -5,7 +5,7 @@ import NoticeScreen from '../screens/HomeScreen/noticeScreen';
 
 const StackB = createNativeStackNavigator();
 
-export default function StackANavigator() {
+export default function StackBNavigator() {
 
   return (
     <StackB.Navigator screenOptions={{ headerShown: false}}>
