@@ -20,7 +20,6 @@ export default function FormScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Formulario</Text>
-
       <Text style={styles.label}>Ingrese su nombre:</Text>
       <TextInput
         style={styles.input}
@@ -29,9 +28,7 @@ export default function FormScreen() {
         placeholder="Nombre"
         placeholderTextColor="#888"
       />
-
       {error ? <Text style={styles.error}>{error}</Text> : null}
-
       <Boton texto="Enviar" onPress={Enviar} style={styles.button} />
     </View>
   );
@@ -40,26 +37,25 @@ export default function FormScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#121212',
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
   },
   title: {
     fontSize: 26,
-    color: 'white',
+    color: '#000',
     fontWeight: 'bold',
     marginBottom: 30,
   },
   label: {
-    color: '#bbb',
+    color: '#999',
     fontSize: 16,
     alignSelf: 'flex-start',
     marginBottom: 6,
   },
   input: {
-    backgroundColor: '#2a2a2a',
-    color: 'white',
+    backgroundColor: '#eee',
+    color: '#000',
     borderRadius: 10,
     paddingHorizontal: 15,
     paddingVertical: 12,

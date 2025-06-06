@@ -18,7 +18,7 @@ export default function PerfilScreen() {
       
       <Boton 
         texto="Mostrar detalles de la cuenta" 
-        onPress={() => navigation.navigate('perfilScreen2')} 
+        onPress={() => navigation.navigate('PerfilScreen2')} 
         style={styles.button}
       />
     </View>

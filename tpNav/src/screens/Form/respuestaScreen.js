@@ -20,10 +20,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#1a1a1a',
   },
   text: {
-    color: 'white',
+    color: '#000',
     fontSize: 28,
     marginBottom: 20,
   },
